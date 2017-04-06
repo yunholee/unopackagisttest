@@ -1,0 +1,22 @@
+{
+	"name": "unosunlightggong/first_test",
+	"description": "this is uno's first test",
+	"keywords": ["uno","sunlight", "ggong"],
+	"homepage": "http://daum.net",
+	"licents": "MIT",
+	"authors": [{
+		"name": "uno lee",
+		"homepage": "http://daum.net",
+		"role": "developer"
+	}],
+	"support": {"email": "daum@daum.net"},
+	"require": {
+		"php": ">5.4.0",
+		"spipu/html2pdf": "v4.6.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"our\\sunlight\\": "src/"
+		}
+	}
+}
